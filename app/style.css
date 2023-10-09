@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+nav {
+  background-color: #444;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+nav a {
+  color: white;
+  text-decoration: underline;
+}
+nav a:hover {
+  color: red;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+.container label {
+  display: block;
+  margin-bottom: 10px;
+  text-align: left;
+}
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.container button {
+  /* border: 5px groove #080202; */
+
+  background-color: #73bbc9;
+  color: white;
+  padding: 10px 20px;
+
+  cursor: pointer;
+}
+.container button:hover {
+  background-color: #080202;
+}
+
+.select-home {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 250px;
+}
+/* Style the label */
+.select-home label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+/* Style the dropdown select */
+.select-home select {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+/* Style the options */
+.select-home option {
+  padding: 5px;
+}
+/* Style the div */
+.display {
+  margin: 20px;
+  padding: 10px;
+  border: 3px solid black;
+  border-radius: 5px;
+  width: 300px;
+}
+/* Style the badge for Hard difficulty */
+.badge {
+  padding: 5px 10px;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+  margin-top: 5px;
+}
+/* Red badge for Hard difficulty */
+.red {
+  background-color: #D2001A;
+}
+.green {
+  background-color: rgb(70, 196, 70);
+}
+.brown {
+  background-color: brown;
+}
+.yellow {
+  background-color: #f5ea5a;
+}
+.output {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: white;
+}
+#python {
+  background-color: #609966;
+}
+#cp {
+  background-color: #aa5656;
+}
+#csharp {
+  background-color: #fce22a;
+}
+#c {
+  background-color: #A10035;
+}
