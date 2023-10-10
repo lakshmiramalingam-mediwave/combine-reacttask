@@ -1,0 +1,172 @@
+/* home 
+body,
+h1,
+p,
+select {
+  margin: 0;
+  padding: 0;
+}
+/* Basic styling */
+/* body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+.home-wrap {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.select-home {
+  margin-bottom: 20px;
+}
+label {
+  font-weight: bold;
+}
+select {
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+.total-para {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+.output {
+  display: flex;
+  flex-wrap: wrap;
+}
+.display {
+  flex: 1;
+  padding: 15px;
+  margin: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+} */
+/* Difficulty badge styles */
+/* .badge {
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+.green {
+  background-color: #6dbe45;
+  color: #fff;
+}
+.orange {
+  background-color:orange;
+  color: #fff;
+}
+.yellow {
+  background-color: #ffd700;
+  color: #333;
+}
+.red {
+  background-color: #ff5733;
+  color: #fff;
+}
+/* Media query for responsive layout */
+/* @media (max-width: 768px) {
+  .output {
+    flex-direction: column;
+  }
+  .display {
+    width: 100%;
+  }
+} */ */ */
+Reset some default styles */
+body, h1, p, select {
+    margin: 0;
+    padding: 0;
+}
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+.home-wrap {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px #0000001a;
+    border-radius: 10px;
+    background-color:black;
+    /* background-image: url("https://res.cloudinary.com/practicaldev/image/fetch/s--KapjWfDc--/c_imagga_scale,f_auto,fl_progressive,h_720,q_auto,w_1280/https://images.unsplash.com/photo-1529675641475-78780f1fd4b0%3Fixlib%3Drb-1.2.1%26ixid%3DeyJhcHBfaWQiOjEyMDd9%26auto%3Dformat%26fit%3Dcrop%26w%3D1350%26q%3D80"); */
+}
+.select-home {
+    margin-bottom: 20px;
+}
+label {
+    font-weight: bold;
+    color: white;
+}
+select {
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+.total-para {
+    font-size:medium;
+    font-weight: bold;
+    color:white;
+    margin-bottom: 10px;
+}
+.output {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.display {
+    flex: 1;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    b
+}
+/* Difficulty badge styles */
+.badge {
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.green {
+    background-color: #6DBE45;
+    color: #fff;
+}
+.orange {
+    background-color: orange;
+    color: #fff;
+}
+.yellow {
+    background-color: #FFD700;
+    color: #333;
+}
+.red {
+    background-color: #FF5733;
+    color: #fff;
+}
+/* Media query for responsive layout */
+@media (max-width: 768px) {
+    .output {
+        grid-template-columns: 1fr;
+    }
+    /* .display {
+        width: 100%;
+    } */
+}
+
+
+
+
+
+
+
+
+
+
+
+

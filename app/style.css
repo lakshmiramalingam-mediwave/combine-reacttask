@@ -27,6 +27,8 @@ nav a:hover {
   margin: 0 auto;
   padding: 20px;
   text-align: center;
+  
+  
 }
 .container label {
   display: block;
@@ -35,14 +37,15 @@ nav a:hover {
 }
 input,
 select {
-  width: 100%;
+  width: 95%;
   padding: 10px;
   margin-bottom: 15px;
+  
 }
 .container button {
-  /* border: 5px groove #080202; */
+   /* border: 5px groove #080202;  */
 
-  background-color: #73bbc9;
+  background-color: black;
   color: white;
   padding: 10px 20px;
 
@@ -52,21 +55,22 @@ select {
   background-color: #080202;
 }
 
-.select-home {
-  margin: 20px;
+ .select-home {
+  margin: auto;
+  max-width: 400px;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
   width: 250px;
 }
 /* Style the label */
-.select-home label {
+ .select-home label {
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
 }
 /* Style the dropdown select */
-.select-home select {
+ .select-home select {
   width: 100%;
   padding: 5px;
   border: 1px solid #ddd;
@@ -75,7 +79,7 @@ select {
 /* Style the options */
 .select-home option {
   padding: 5px;
-}
+} 
 /* Style the div */
 .display {
   margin: 20px;
@@ -85,7 +89,7 @@ select {
   width: 300px;
 }
 /* Style the badge for Hard difficulty */
-.badge {
+ .badge {
   padding: 5px 10px;
   color: #fff;
   border-radius: 5px;
@@ -93,26 +97,27 @@ select {
   text-align: center;
   display: inline-block;
   margin-top: 5px;
-}
+} 
 /* Red badge for Hard difficulty */
 .red {
-  background-color: #D2001A;
+  background-color: #d2001a;
 }
 .green {
   background-color: rgb(70, 196, 70);
 }
-.brown {
-  background-color: brown;
-}
+.orange {
+  background-color:orange;
+ }
 .yellow {
-  background-color: #f5ea5a;
-}
-.output {
-  display: grid;
+  background-color: #F8FF95;
+  color:black;
+} 
+.output { 
+   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: white;
-}
-#python {
+  background-color: white; 
+ } 
+/* #python {
   background-color: #609966;
 }
 #cp {
@@ -122,5 +127,28 @@ select {
   background-color: #fce22a;
 }
 #c {
-  background-color: #A10035;
+  background-color: #a10035;
+} */
+ .total-para {
+  text-align: end;
+  font-size: large;
+  font-weight: bold;
 }
+.home-wrap {
+  margin: auto;
+  max-width: 800px;
+}
+.display span {
+  margin-right: 10px;
+}
+
+
+ 
+
+
+ @media only screen and (max-width:778px){
+  .output{
+    grid-template-columns: 1fr;
+  }
+}
+  
